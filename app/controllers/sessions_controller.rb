@@ -6,6 +6,6 @@ class SessionsController < ApplicationController
       u.image = auth['info']['image']
     end
 
-    session[:user_id]
+    session[:user_id] = @user.id
   end
 end
