@@ -10,4 +10,6 @@ class SessionsController < ApplicationController
 
     render 'welcome/home'
   end
+
+  private 
 end
